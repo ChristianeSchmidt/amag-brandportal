@@ -1,0 +1,2653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="amag" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>mix:lockable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>af4cbad8-5bf6-4d47-97f2-fd5a5ccf4c01</sv:value>
+  </sv:property>
+  <sv:property sv:name="label" sv:type="String">
+    <sv:value>Amag</sv:value>
+  </sv:property>
+  <sv:node sv:name="MetaData">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:metaData</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:authorid" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+      <sv:value>2008-11-04T10:58:05.596+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+      <sv:value>2013-07-22T14:43:04.386+02:00</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>mix:lockable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d6cb84c7-c92e-44aa-9fe6-09875790ae69</sv:value>
+    </sv:property>
+    <sv:node sv:name="MetaData">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:metaData</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:authorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+        <sv:value>2009-03-03T16:08:08.631+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+        <sv:value>2013-07-22T14:31:50.136+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="prototype">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3e616793-4697-4e35-aa7e-5a219e5a5523</sv:value>
+      </sv:property>
+      <sv:property sv:name="templatePath" sv:type="String">
+        <sv:value>/amag-module/templates/main.ftl</sv:value>
+      </sv:property>
+      <sv:node sv:name="MetaData">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:metaData</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:authorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+          <sv:value>2008-11-04T10:58:12.131+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+          <sv:value>2013-07-26T10:00:05.628+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="htmlHeader">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a4b74505-3fdb-4ea7-a911-0a20e1cec5af</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/htmlHeader.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-03-06T13:55:50.538+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.143+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="navigation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d7889713-7a34-4c89-8637-3d569b149fd4</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2008-11-04T10:58:28.055+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.145+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="horizontal">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c11f726a-fcf9-4eba-b489-3d5ef873e5d1</sv:value>
+          </sv:property>
+          <sv:property sv:name="allOpen" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="level" sv:type="Long">
+            <sv:value>8</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/amag-module/areas/global/horizontalNavigation.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-11-04T14:43:24.585+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-15T09:48:42.992+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="vertical">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fe6470ee-7241-4e50-bcac-3751a0fab6bc</sv:value>
+          </sv:property>
+          <sv:property sv:name="allOpen" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="level" sv:type="Long">
+            <sv:value>5</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/amag-module/areas/global/verticalNavigation.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-11-04T14:43:24.585+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-15T09:20:12.019+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="meta">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d8127363-b9f1-4bca-b882-7fc2bbf1854e</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/amag-module/areas/global/metaNavigation.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-11-04T14:43:24.585+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-06T09:18:33.630+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="paragraphs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>e72b7baf-cd2a-49cd-b886-db684c560c93</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-11-10T12:21:44.189+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.156+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="stkInternalLink">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+                <sv:value>mix:lockable</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>20f892e2-4358-4035-95bd-6dc57f5cb32f</sv:value>
+              </sv:property>
+              <sv:property sv:name="name" sv:type="String">
+                <sv:value>stkInternalLink</sv:value>
+              </sv:property>
+              <sv:node sv:name="MetaData">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:metaData</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                  <sv:value>false</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:authorid" sv:type="String">
+                  <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                  <sv:value>2009-11-10T12:21:53.427+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                  <sv:value>2013-07-22T14:31:50.158+02:00</sv:value>
+                </sv:property>
+              </sv:node>
+            </sv:node>
+            <sv:node sv:name="stkPURLink">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+                <sv:value>mix:lockable</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>a812f666-14de-43e1-85b5-5dc57685fdd6</sv:value>
+              </sv:property>
+              <sv:property sv:name="name" sv:type="String">
+                <sv:value>stkPURLink</sv:value>
+              </sv:property>
+              <sv:node sv:name="MetaData">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:metaData</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                  <sv:value>false</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:authorid" sv:type="String">
+                  <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                  <sv:value>2009-11-10T15:20:16.532+01:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                  <sv:value>2013-07-22T14:31:50.160+02:00</sv:value>
+                </sv:property>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="header">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0f79a064-1ec6-4950-8255-a7645d931649</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/amag-module/areas/global/header.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-03-06T13:57:53.973+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-08-06T09:13:12.242+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="branding">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>75df14d6-f1ed-4894-b159-8e49a2bf7ef8</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/amag-module/areas/global/branding.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-03-06T13:55:50.538+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-06T09:09:13.214+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="sectionHeader">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2997d742-ce82-48e8-a267-839b63877cc6</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/templating-kit/templates/content/sectionHeader.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-03-08T13:25:02.473+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.178+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="stage">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>49e50d58-61f8-4d96-a733-4961615c6132</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="String">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/templating-kit/templates/home/stage.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-31T11:07:59.980+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.191+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="paragraphs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>da14c4a7-3d58-4e49-8ff3-ef8d73893005</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:42.932+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.193+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="amagTeaserCarousel">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+                <sv:value>mix:lockable</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>332397c1-4b6b-44fc-baee-d96e15f8c96f</sv:value>
+              </sv:property>
+              <sv:property sv:name="name" sv:type="String">
+                <sv:value>amagTeaserCarousel</sv:value>
+              </sv:property>
+              <sv:node sv:name="MetaData">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:metaData</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                  <sv:value>false</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:authorid" sv:type="String">
+                  <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                  <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                  <sv:value>2013-07-22T16:20:25.808+02:00</sv:value>
+                </sv:property>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="platformArea">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>787a5243-f4d5-473f-b7ce-a897b5a286e6</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/platformArea.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2008-10-23T19:07:20.427+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.197+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="paragraphs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a81897b2-a69a-4ec0-8e54-d63603575630</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-24T16:32:42.932+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.198+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="stkTeaserPaging">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>95b3d5d9-8ff8-4a60-a863-943a83e3d4e2</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkTeaserPaging</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.199+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="breadcrumb">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>594a9bce-fba9-44e5-b2a7-c51b4a1edccc</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/breadcrumb.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-03-06T13:55:50.538+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.200+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="mainArea">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f00e3007-75c3-43b0-9b0b-62cec1bd7302</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/amag-module/areas/global/mainArea.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-03-06T14:00:48.649+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T15:37:06.679+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="intro">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>71db188c-2c31-4f7b-be77-0adf5db56b5d</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="showAbstract" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="showAuthorDate" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="showCategories" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="showImage" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="showTOC" sv:type="String">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="showTextFeatures" sv:type="String">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="template" sv:type="String">
+            <sv:value>/templating-kit/templates/global/mainAreaIntro.ftl</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-23T18:11:22.572+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.207+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="infoBlock">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>0239bd7d-d0d4-4cd9-9c05-d2f1361078a9</sv:value>
+            </sv:property>
+            <sv:property sv:name="enabled" sv:type="String">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-03-08T20:31:44.809+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.209+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="comments">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>21b76c76-7c02-45b3-bc8c-fdcd0738a57a</sv:value>
+          </sv:property>
+          <sv:property sv:name="editable" sv:type="String">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="String">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="intenseDebateId" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-04-02T14:31:31.565+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T15:33:04.998+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="extrasArea">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1d316c53-531a-4cef-8c04-95c11b89059c</sv:value>
+        </sv:property>
+        <sv:property sv:name="columns" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="small" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/extrasArea.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2008-10-23T19:07:20.427+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T15:30:24.387+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="paragraphs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c8b0f6c9-211c-4f66-9cd2-2bf9de881186</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-24T16:32:42.932+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.227+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="stkExtrasInternalPage">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d1a8d447-52f3-4625-b071-d3fc2602f44f</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasInternalPage</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.230+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasExternalPage">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>24fa203b-2087-4a08-b1ab-1bcf359fc788</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasExternalPage</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.232+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasDownloadFile">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>e107fe31-c5ff-4f19-81db-1e40cd847be3</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasDownloadFile</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.234+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasNewsList">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b1029e93-92a4-42b7-86c5-c7a09d0e9155</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasNewsList</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.236+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasEventsList">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>a5398821-6819-4714-9c1c-2f09d47a5fba</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasEventsList</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.237+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasHorizontalTabbed">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>fbdce468-f274-4d48-8b62-379c546dc023</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasHorizontalTabbed</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.238+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasPureLinkList">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>847fcba6-7cf9-4c74-9c7e-0637efe21783</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasPureLinkList</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.239+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasContact">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>8d7122ca-d738-4ee9-be4a-42556fd2ee2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasContact</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.240+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasCalendar">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>c130dd40-c47f-463e-a741-60364234d4ff</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasCalendar</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-03-10T13:23:21.608+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.243+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasContentTypeRSSFeed">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>33183140-1d62-43ce-b47d-fdc756e4de84</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasContentTypeRSSFeed</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-05-27T12:15:38.286+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.246+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkExtrasBoxGroup">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>ca2b5b57-3491-4e80-8d96-0569ae216b4f</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkExtrasBoxGroup</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.248+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="categoryRSSFeed">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>5c3ae5ce-b026-416d-ac98-1a582ff55c2b</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>categoryRSSFeed</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-05-27T12:15:38.286+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.248+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="module">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>20d5b52a-5615-426a-83c1-86049f56a5d5</sv:value>
+          </sv:property>
+          <sv:property sv:name="enabled" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-02-19T21:39:09.154+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.249+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="paragraphs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>4674281a-0271-4cd0-a9bc-51f9551b50e4</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2009-02-19T21:39:51.717+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.253+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="stkExtrasHorizontalTabbed">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:contentNode</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+                <sv:value>mix:lockable</sv:value>
+              </sv:property>
+              <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>7c873932-d998-4623-9988-90ca3870f7f7</sv:value>
+              </sv:property>
+              <sv:property sv:name="name" sv:type="String">
+                <sv:value>stkExtrasHorizontalTabbed</sv:value>
+              </sv:property>
+              <sv:node sv:name="MetaData">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>mgnl:metaData</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                  <sv:value>false</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:authorid" sv:type="String">
+                  <sv:value>superuser</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                  <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+                </sv:property>
+                <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                  <sv:value>2013-07-22T14:31:50.259+02:00</sv:value>
+                </sv:property>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="promosArea">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b46ca4a2-0571-409d-a330-23c5b00f8430</sv:value>
+        </sv:property>
+        <sv:property sv:name="editable" sv:type="String">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/promosArea.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2008-10-23T19:07:20.427+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T15:45:01.456+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="paragraphs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>adf16ed4-2449-4754-bc5c-17090c8ef4de</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-24T16:32:42.932+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.262+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="stkPromo">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>97a40814-bc58-488e-b51a-0996cc4a8010</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkPromo</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.263+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="baseArea">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>aa28ed84-f931-45d7-a83c-02eea7b58ee8</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/baseArea.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2008-10-23T19:07:20.427+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.264+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="paragraphs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ebca6116-0470-445a-8553-97e86892a142</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-24T16:32:42.932+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.267+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="stkTeaserCarousel">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>78b6e4a6-26ee-4e45-9d05-0542322706cf</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkTeaserCarousel</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.268+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="catCloudWide">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>72d4c0e9-2748-4301-a04c-1843a4b19780</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>catCloudWide</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-24T16:32:53.619+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.269+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="footer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>46a26ff3-319b-4a76-bb4b-7755be2e7409</sv:value>
+        </sv:property>
+        <sv:property sv:name="editable" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="paragraph" sv:type="String">
+          <sv:value>stkFooter</sv:value>
+        </sv:property>
+        <sv:property sv:name="template" sv:type="String">
+          <sv:value>/templating-kit/templates/global/footer.ftl</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-03-06T14:02:03.809+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.270+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="paragraphs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8a67ae81-5a48-4575-a343-a7e2020473ce</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2008-10-27T15:22:28.893+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.272+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="stkFooterLinkList">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>c1d60b87-d77f-409c-9457-bb92e6910bd3</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkFooterLinkList</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-27T15:22:35.385+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.276+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="stkFooterAbout">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+              <sv:value>mix:lockable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b0913176-932f-465a-8e9e-bd44b0dd5d96</sv:value>
+            </sv:property>
+            <sv:property sv:name="name" sv:type="String">
+              <sv:value>stkFooterAbout</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+                <sv:value>2008-10-27T15:22:37.189+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.278+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="jsFiles">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>49e474a4-cf8c-48e0-aaeb-7909bcefe432</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-06-01T20:59:44.006+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.280+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="cssFiles">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>00008822-2c0b-4d10-961d-13d8aeec25ce</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-06-01T20:59:46.299+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.283+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="availability">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3bca6555-cfd6-4f61-8608-f8bf2e5aea33</sv:value>
+      </sv:property>
+      <sv:property sv:name="class" sv:type="String">
+        <sv:value>info.magnolia.module.templatingkit.sites.TemplateAvailability</sv:value>
+      </sv:property>
+      <sv:node sv:name="MetaData">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:metaData</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:authorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+          <sv:value>2009-05-21T16:03:53.282+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+          <sv:value>2013-07-22T14:31:50.285+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="templates">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>faed4602-abb2-4a98-93ad-c9e5563c8ae4</sv:value>
+        </sv:property>
+        <sv:property sv:name="extends" sv:type="String">
+          <sv:value>override</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2013-07-22T14:40:54.762+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:59:21.869+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="amagHome">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cd4a986b-2399-4036-83d6-f78d921fd2d4</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagHome</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-03-03T16:08:08.670+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:41:42.720+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagSection">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c7884d70-46b3-4841-90be-28dd00914729</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagSection</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-03-03T16:08:08.670+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:41:51.342+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagArticle">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ab7ae024-f2b6-42bd-a6ab-c79840a84c48</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagArticle</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-03-03T16:08:08.670+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:42:00.413+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagNewsOverview">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>dbe2ee7f-e88a-4925-8021-7248574ad573</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagNewsOverview</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2013-07-22T14:42:02.396+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:42:17.680+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagNews">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>16dc65c0-1d4e-4415-ab00-0ac14cd7bbae</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagNews</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2013-07-22T14:42:02.396+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:42:26.867+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagSearchResult">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9b7ab795-3863-41d4-b2c0-5a67c3e2ba1b</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagSearchResult</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2013-07-22T14:42:02.396+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T15:42:23.824+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagRedirect">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4e295fe7-8f15-4b27-a8b3-83064ee1751d</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagRedirect</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2013-07-22T14:42:02.396+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-14T16:29:39.088+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="amagIFrame">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ec3ffd69-392e-471b-b2e4-fa645023d16e</sv:value>
+          </sv:property>
+          <sv:property sv:name="name" sv:type="String">
+            <sv:value>amagIFrame</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2013-07-22T14:42:02.396+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-08-08T08:46:53.445+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="theme">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>mix:lockable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>125b2f95-4a2c-4e5c-b356-d6f73120e34e</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.module.templatingkit.style.ThemeReference</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>amag-theme</sv:value>
+    </sv:property>
+    <sv:node sv:name="MetaData">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:metaData</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:authorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+        <sv:value>2008-11-07T13:34:02.787+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+        <sv:value>2013-08-08T14:38:24.922+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="damSupport">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>mix:lockable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f2f5b34a-22fe-4b27-881b-4bb0fb7dd05e</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.module.templatingkit.dam.DAMSupport</sv:value>
+    </sv:property>
+    <sv:node sv:name="MetaData">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:metaData</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:authorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+        <sv:value>2009-04-28T11:06:15.971+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+        <sv:value>2013-07-22T14:31:50.322+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="handlers">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>93824ae7-94a7-441a-bd6f-c7eaa1b828c6</sv:value>
+      </sv:property>
+      <sv:node sv:name="MetaData">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:metaData</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:authorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+          <sv:value>2009-04-28T14:45:18.326+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+          <sv:value>2013-07-22T14:31:50.323+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="upload">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dff51811-2216-404d-9146-76cccd4022cf</sv:value>
+        </sv:property>
+        <sv:property sv:name="class" sv:type="String">
+          <sv:value>info.magnolia.module.templatingkit.dam.handlers.InternalContentDAMHandler</sv:value>
+        </sv:property>
+        <sv:property sv:name="damSelectorOptionLabel" sv:type="String">
+          <sv:value>binary.damSelectorLabel</sv:value>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="String">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-04-28T11:06:28.122+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.324+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="controls">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>dac99f4e-4776-4930-aecd-c31310af8b7d</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-05-08T09:09:15.183+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.326+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Binary">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d1612ba0-ecbe-4592-8375-ba4a5253d7ed</sv:value>
+            </sv:property>
+            <sv:property sv:name="controlType" sv:type="String">
+              <sv:value>file</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>binary.description</sv:value>
+            </sv:property>
+            <sv:property sv:name="i18nBasename" sv:type="String">
+              <sv:value>info.magnolia.module.templatingkit.messages</sv:value>
+            </sv:property>
+            <sv:property sv:name="label" sv:type="String">
+              <sv:value>binary.label</sv:value>
+            </sv:property>
+            <sv:property sv:name="type" sv:type="String">
+              <sv:value>Binary</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:Data" sv:type="String">
+                <sv:value>MetaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activatorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="String">
+                <sv:value>2004-11-02T15:34:29.357+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+                <sv:value>2006-05-01T21:48:07.894+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.327+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="dms">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>mix:lockable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>acd5cf28-112f-4ead-8ec3-97ee50777017</sv:value>
+        </sv:property>
+        <sv:property sv:name="class" sv:type="String">
+          <sv:value>info.magnolia.module.templatingkit.dam.handlers.DMSDAMHandler</sv:value>
+        </sv:property>
+        <sv:property sv:name="damSelectorOptionLabel" sv:type="String">
+          <sv:value>dmsUUID.damSelectorLabel</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2009-04-28T11:06:28.122+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.327+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="controls">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+            <sv:value>mix:lockable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>88a20c0a-f84e-4198-9582-de26ff6d395e</sv:value>
+          </sv:property>
+          <sv:node sv:name="MetaData">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:metaData</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:authorid" sv:type="String">
+              <sv:value>superuser</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+              <sv:value>2009-05-08T09:09:15.183+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+              <sv:value>2013-07-22T14:31:50.328+02:00</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="DmsUUID">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>mgnl:contentNode</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d73fc936-be83-482c-875e-f7e2d2704a1c</sv:value>
+            </sv:property>
+            <sv:property sv:name="controlType" sv:type="String">
+              <sv:value>uuidLink</sv:value>
+            </sv:property>
+            <sv:property sv:name="description" sv:type="String">
+              <sv:value>dmsUUID.description</sv:value>
+            </sv:property>
+            <sv:property sv:name="i18nBasename" sv:type="String">
+              <sv:value>info.magnolia.module.templatingkit.messages</sv:value>
+            </sv:property>
+            <sv:property sv:name="label" sv:type="String">
+              <sv:value>dmsUUID.label</sv:value>
+            </sv:property>
+            <sv:property sv:name="path" sv:type="String">
+              <sv:value>/img</sv:value>
+            </sv:property>
+            <sv:property sv:name="repository" sv:type="String">
+              <sv:value>dms</sv:value>
+            </sv:property>
+            <sv:property sv:name="type" sv:type="String">
+              <sv:value>String</sv:value>
+            </sv:property>
+            <sv:node sv:name="MetaData">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:metaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:Data" sv:type="String">
+                <sv:value>MetaData</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+                <sv:value>false</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:activatorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:authorid" sv:type="String">
+                <sv:value>superuser</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:creationdate" sv:type="String">
+                <sv:value>2004-11-03T08:48:09.632+01:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+                <sv:value>2006-05-01T21:47:47.024+02:00</sv:value>
+              </sv:property>
+              <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+                <sv:value>2013-07-22T14:31:50.329+02:00</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="i18n">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c62ca5cd-715e-4762-b305-af5ad3317e2d</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.cms.i18n.DefaultI18nContentSupport</sv:value>
+    </sv:property>
+    <sv:property sv:name="defaultLocale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="fallbackLocale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="MetaData">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:metaData</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activatorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:authorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+        <sv:value>2007-05-10T15:20:44.119+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+        <sv:value>2007-05-10T15:26:06.979+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+        <sv:value>2013-07-25T15:25:05.120+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="locales">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>87c541be-f9c3-4742-ab3f-4256795030fc</sv:value>
+      </sv:property>
+      <sv:node sv:name="MetaData">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:metaData</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activatorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:authorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+          <sv:value>2007-05-10T15:45:28.556+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+          <sv:value>2007-05-10T15:45:34.468+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+          <sv:value>2013-07-22T14:31:50.330+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="fr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f92f149f-870c-43d9-8ab9-37c702681f14</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>fr</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activatorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2007-05-10T15:48:13.818+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+            <sv:value>2007-05-10T15:48:19.887+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-25T15:26:02.869+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="de">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f653a5ef-a4d3-426c-984c-c1e7bf3f17f3</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activatorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2007-05-10T15:48:13.818+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+            <sv:value>2007-05-10T15:49:05.159+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-22T14:31:50.331+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="it">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>16c77426-b711-4c86-870d-a4be7fcf3b9e</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>it</sv:value>
+        </sv:property>
+        <sv:node sv:name="MetaData">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:metaData</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:activatorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:authorid" sv:type="String">
+            <sv:value>superuser</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+            <sv:value>2007-05-10T15:48:13.818+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+            <sv:value>2007-05-10T15:48:19.887+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+            <sv:value>2013-07-25T15:26:11.133+02:00</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mappings">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>mix:lockable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ba3d6595-8422-4b68-a606-76da4e8f566a</sv:value>
+    </sv:property>
+    <sv:node sv:name="MetaData">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:metaData</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:activatorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:authorid" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+        <sv:value>2007-11-05T16:18:23.242+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+        <sv:value>2007-11-05T16:18:27.694+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+        <sv:value>2013-07-22T14:43:16.974+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="website">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>69f8db07-405e-4b96-82de-fbc7dfccf219</sv:value>
+      </sv:property>
+      <sv:property sv:name="URIPrefix" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="handlePrefix" sv:type="String">
+        <sv:value>/startseite</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>website</sv:value>
+      </sv:property>
+      <sv:node sv:name="MetaData">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:metaData</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activated" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:activatorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:authorid" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:creationdate" sv:type="Date">
+          <sv:value>2006-07-28T14:34:41.439+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastaction" sv:type="Date">
+          <sv:value>2007-11-05T16:18:37.466+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastmodified" sv:type="Date">
+          <sv:value>2013-07-22T14:50:30.675+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>amag-theme</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <versionHandler>ch.openinteractive.amag.setup.AmagThemeVersionHandler</versionHandler>
+  <version>${project.version}</version>
+  <properties>
+    <property>
+        <name>themeName</name>
+        <value>amag-theme</value>
+    </property>
+  </properties>
+  <dependencies>
+    <dependency>
+      <name>standard-templating-kit</name>
+      <version>1.4.7/*</version>
+    </dependency>
+  </dependencies>
+</module>

@@ -1,0 +1,1065 @@
+[#assign contextRoot = ctx.request.contextPath]
+[#assign docRoot = contextRoot + "/docroot"]
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+
+body {
+  font-family: "amag_textlight", sans-serif;
+  font-size: 62.5%;
+  color: black;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: underline;
+}
+a:hover, a:active {
+  color: #e2007a;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+  font-family: "amag_displaybold", sans-serif;
+  font-weight: normal;
+  line-height: 1.3;
+}
+#main h1 {
+  font-size: 400%;
+  margin-bottom: 35px;
+  border: 0;
+  padding: 0;
+}
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+  margin-bottom: 25px;
+}
+#main h2 {
+  font-size: 230%;
+}
+#main h3 {
+  font-size: 180%;
+}
+#main h4 {
+  font-size: 150%;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+p.intro {
+  font-family: "amag_textbold", sans-serif;
+}
+
+p,
+li,
+dd,
+dt {
+  font-size: 150%;
+  line-height: 1.3;
+}
+p strong,
+li strong,
+dd strong,
+dt strong {
+  font-family: "amag_textbold", sans-serif;
+}
+
+p > ul,
+p > ol,
+#main > ul,
+#main > ol {
+  margin-bottom: 25px;
+}
+p > ul,
+#main > ul {
+  margin-left: 4px;
+  list-style: none;
+  padding-left: 5px;
+  text-indent: -8px;
+}
+p > ul li:before,
+#main > ul li:before {
+  content: "\00B7";
+  padding-right: 5px;
+  font-family: "amag_textbold", sans-serif;
+}
+p > ol,
+#main > ol {
+  margin-left: 28px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+  border: 0 none;
+  background: url("${docRoot}/amag-module/amag-images/dotted_line.png") repeat-x scroll left bottom transparent;
+}
+
+img[align=left] {
+  margin-right: 21px;
+  margin-bottom: 21px;
+}
+
+img[align=right] {
+  margin-left: 21px;
+  margin-bottom: 21px;
+}
+
+#wrapper,
+#home,
+#home #wrapper,
+#site-info {
+  background: none transparent;
+}
+
+#section-header,
+#branding,
+#wrapper-2,
+#header .inner,
+#breadcrumb {
+  width: 1140px !important;
+  padding: 0 40px;
+}
+
+#header {
+  background-image: url("${docRoot}/amag-module/amag-images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: center 41px;
+  height: 70px;
+}
+#home #header {
+  height: 41px;
+  background-image: none;
+}
+#header .inner {
+  margin: 0 auto;
+  *zoom: 1;
+}
+#header .inner:before, #header .inner:after {
+  content: " ";
+  display: table;
+}
+#header .inner:after {
+  clear: both;
+}
+
+#site-info {
+  color: black;
+}
+
+#branding {
+  position: relative;
+  margin: 0 auto;
+  z-index: 0;
+}
+#branding .skip {
+  margin: 0;
+}
+#branding #logo {
+  overflow: visible;
+  position: absolute;
+  top: 75px;
+  right: 40px;
+  z-index: 1;
+}
+#branding #logo a {
+  position: relative;
+  top: auto;
+  width: 130px;
+  padding: 0;
+}
+#branding #logo strong {
+  display: none;
+}
+
+#nav,
+#extras,
+#main,
+#platform {
+  margin-top: 6px;
+}
+
+#wrapper-2 {
+  margin-top: 60px;
+}
+body.iframe #wrapper-2, body#home #wrapper-2 {
+  margin-top: 0;
+}
+
+#wrapper-3 {
+  width: 675px !important;
+  float: right;
+  margin-right: 0;
+}
+.iframe #wrapper-3 {
+  width: 100%;
+  float: none;
+}
+
+#main {
+  width: 100%;
+}
+
+.col-float2 #main,
+.col-float2 #wrapper-3,
+.col-float3 #main,
+.col-float3 #wrapper-3 {
+  width: 100%;
+}
+
+.latest {
+  border-top: 0;
+}
+.latest li p em.more {
+  display: block;
+}
+.latest li p em.more a {
+  font-size: 130%;
+  background: url("${docRoot}/amag-module/amag-images/link_arrow.png") no-repeat left center;
+  padding-left: 20px;
+}
+
+#keepaliveiframe {
+  display: none;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+.bold {
+  font-family: "amag_textbold", sans-serif;
+}
+
+.legende {
+  font-family: "amag_textlight", sans-serif;
+  font-size: 150%;
+  color: #2699d1;
+  line-height: 1.3;
+  margin-top: 10px;
+}
+
+.vertical-space {
+  height: 21px;
+  width: 675px;
+}
+
+.hinweis {
+  font-family: "amag_textbold", sans-serif;
+  color: #e2001a;
+}
+
+.picborder {
+  border: 1px solid black;
+}
+
+.highlight, #main .highlight, #main .text .highlight {
+  background-color: #d4ebf6;
+}
+
+#nav-global {
+  border-top: 0;
+  width: 840px !important;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 0;
+  overflow: visible;
+}
+#nav-global > ul {
+  width: 100%;
+  background: none transparent;
+  margin-bottom: 0;
+}
+#nav-global > ul > li {
+  position: relative;
+  margin-top: 0;
+}
+#nav-global > ul > li.has-subnav-wide {
+  position: static;
+}
+#nav-global > ul > li.has-subnav-wide:hover:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 41px;
+  z-index: 100;
+  width: 11px;
+  height: 6px;
+  background: url("${docRoot}/amag-module/amag-images/global_nav_arrow.png") no-repeat;
+}
+#nav-global > ul > li:hover > a {
+  color: #e2007a;
+}
+#nav-global #nav-sec-home {
+  display: none;
+  visibility: hidden;
+}
+#nav-global ul {
+  background-image: none;
+  background-color: transparent;
+}
+#nav-global li {
+  font-family: "amag_displaybold", sans-serif;
+  font-weight: 100;
+  font-size: 210%;
+  margin-right: 0;
+  padding-bottom: 0;
+}
+#nav-global li span, #nav-global li.open a span {
+  padding-left: 0;
+  margin-left: 0;
+  padding-right: 12px;
+  padding-bottom: 5px;
+}
+#nav-global li a, #nav-global li a:visited,
+#nav-global li a strong {
+  width: 100%;
+  color: black;
+}
+#nav-global li a:hover, #nav-global li a:active, #nav-global li a:focus {
+  background-color: transparent;
+  border-radius: 0;
+  color: #e2007a;
+}
+#nav-global li.on, #nav-global li.open {
+  background: none transparent;
+}
+#nav-global li strong, #nav-global li.open a, #nav-global li.on a {
+  background: transparent;
+  border-radius: 0;
+  color: #e2007a;
+}
+#nav-global li strong {
+  font-weight: normal;
+  font-family: "amag_displaybold", sans-serif;
+}
+#nav-global li strong span, #nav-global li.open a span {
+  padding-right: 12px;
+}
+#nav-global li li a:hover, #nav-global li li a:hover span, #nav-global li li a:active, #nav-global li li a:active span, #nav-global li li a:focus, #nav-global li li a:focus span {
+  color: white;
+}
+html:lang(fr) #nav-global > ul > li, html:lang(it) #nav-global > ul > li {
+  font-size: 200%;
+}
+#nav-global.plus-navsub {
+  border-bottom: 0;
+  overflow: visible;
+}
+#nav-global ul.level-2 {
+  display: none;
+  width: auto;
+  min-width: 250px;
+  position: absolute;
+  top: 41px;
+  left: -20px;
+  padding: 20px 0;
+  background-color: #e2007a;
+  background-image: url("${docRoot}/amag-module/amag-images/global_nav_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 20px top;
+}
+#nav-global ul.level-2 > li {
+  width: 100%;
+  float: none;
+  font-size: 70%;
+}
+#nav-global ul.level-2 > li span {
+  font-family: "amag_displaylight", sans-serif;
+}
+#nav-global ul.level-2 > li > a {
+  padding-left: 20px;
+}
+#nav-global ul.level-2 a,
+#nav-global ul.level-2 a span,
+#nav-global ul.level-2 li.open a,
+#nav-global ul.level-2 li.on a,
+#nav-global ul.level-2 li.open a span,
+#nav-global ul.level-2 li.on a span,
+#nav-global ul.level-2 a:hover span {
+  color: white;
+  font-weight: normal;
+}
+#nav-global ul.level-2 li.open > a,
+#nav-global ul.level-2 li.open > a span,
+#nav-global ul.level-2 li.on > a,
+#nav-global ul.level-2 li.on > a span,
+#nav-global ul.level-2 a:hover span {
+  text-decoration: underline;
+}
+#nav-global .has-subnav-wide ul.level-2 {
+  background-image: none;
+}
+#nav-global li:hover ul.level-2 {
+  display: block;
+}
+#nav-global .has-subnav-wide ul.level-2 {
+  width: 1140px;
+  left: -40px;
+  top: 41px;
+  padding: 20px 20px;
+  background: url("${docRoot}/amag-module/amag-images/amag_logo_white.png") #e2007a no-repeat;
+  background-position: 970px 34px;
+}
+#nav-global .has-subnav-wide ul.level-2 > li {
+  float: left;
+  display: inline-block;
+  width: 240px;
+}
+#nav-global .has-subnav-wide ul.level-2 > li > a {
+  font-weight: normal;
+  font-family: "amag_displaybold", sans-serif;
+  font-size: 145%;
+  font-weight: 100;
+  float: none;
+}
+#nav-global .has-subnav-wide ul.level-2 > li > a span {
+  font-family: "amag_displaybold", sans-serif;
+  font-weight: 100;
+}
+#nav-global .has-subnav-wide ul.level-2 > li:nth-child(3n+1) {
+  clear: left;
+}
+#nav-global .has-subnav-wide ul.level-2 > li.clearing {
+  clear: left;
+}
+#nav-global ul.level-3 {
+  display: inline-block;
+  width: auto;
+  float: none;
+  position: static;
+  padding-left: 20px;
+  margin: 0;
+}
+#nav-global ul.level-3 li {
+  float: none;
+  width: auto;
+  display: list-item;
+}
+#nav-global #nav-sec-corporate-design > ul.level-2 {
+  padding-right: 300px;
+}
+#nav-global #nav-sec-corporate-design .elem-054ba7b857c8.clearing,
+#nav-global #nav-sec-corporate-design .elem-c6466e1390ff.clearing,
+#nav-global #nav-sec-corporate-design .elem-6fa1d40e9638.clearing {
+  clear: none;
+}
+
+#stage {
+  background: transparent;
+  border-radius: 0;
+  width: 100% !important;
+  overflow: hidden;
+}
+
+.js-on #stage div.tw-switcher .rack-teaser {
+  padding: 0;
+}
+.js-on #stage div.tw-switcher .rack {
+  height: 640px;
+  margin: 0;
+  width: 1280px !important;
+}
+
+#stage div.tw-switcher {
+  width: 1280px !important;
+  margin: 0 auto;
+  float: none;
+  background: none white;
+  border: 0;
+  border-radius: 0;
+}
+#stage div.tw-switcher .rack {
+  background: none;
+  height: 640px;
+  padding: 0;
+}
+#stage div.tw-switcher .next,
+#stage div.tw-switcher .prev {
+  z-index: 10;
+  width: 68px;
+  height: 52px;
+  bottom: auto;
+  top: 395px;
+  background: none transparent;
+}
+#stage div.tw-switcher .next span,
+#stage div.tw-switcher .prev span {
+  width: 68px;
+  height: 52px;
+}
+#stage div.tw-switcher .prev {
+  left: 130px;
+}
+#stage div.tw-switcher .next {
+  right: 130px;
+}
+#stage div.tw-switcher .prev span,
+#stage div.tw-switcher .next span {
+  opacity: 0.7;
+}
+#stage div.tw-switcher .prev span.show:hover, #stage div.tw-switcher .prev span.show.over,
+#stage div.tw-switcher .next span.show:hover,
+#stage div.tw-switcher .next span.show.over {
+  opacity: 1;
+}
+#stage div.tw-switcher .prev span, #stage div.tw-switcher .prev span.show:hover, #stage div.tw-switcher .prev span.show.over {
+  background: url("${docRoot}/amag-module/amag-images/slider_arrow_left.png") transparent no-repeat;
+}
+#stage div.tw-switcher .next span {
+  opacity: 0.7;
+}
+#stage div.tw-switcher .next span, #stage div.tw-switcher .next span.show:hover, #stage div.tw-switcher .next span.show.over {
+  background: url("${docRoot}/amag-module/amag-images/slider_arrow_right.png") transparent no-repeat;
+}
+#stage div.tw-switcher .rack-teaser {
+  width: 1280px !important;
+  height: 640px;
+  position: relative;
+  padding: 0;
+}
+#stage div.tw-switcher .rack-teaser img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+#stage div.tw-switcher .rack-teaser h2 {
+  position: absolute;
+  font-family: "amag_displaybold", sans-serif;
+  font-size: 400%;
+  top: 530px;
+  left: 130px;
+}
+#stage div.tw-switcher .rack-teaser em.more {
+  display: none;
+}
+#stage div.tw-switcher .rack-teaser a,
+#stage div.tw-switcher .rack-teaser a:active {
+  text-decoration: none;
+}
+#stage div.tw-switcher .font-color-white a,
+#stage div.tw-switcher .font-color-white h2 {
+  color: white;
+}
+#stage div.tw-switcher .font-color-gray a,
+#stage div.tw-switcher .font-color-gray h2 {
+  color: #6f6d67;
+}
+#stage div.tw-switcher .font-color-black a,
+#stage div.tw-switcher .font-color-black h2 {
+  color: black;
+}
+#stage div.tw-switcher .rack-teaser .logo-color-gray,
+#stage div.tw-switcher .rack-teaser .logo-color-white,
+#stage div.tw-switcher .rack-teaser .logo-color-black {
+  overflow: visible;
+  position: absolute;
+  right: 110px;
+  top: 34px;
+  z-index: 1;
+  width: 130px;
+  height: 45px;
+}
+#stage div.tw-switcher .rack-teaser .logo-color-gray {
+  background: url("${docRoot}/amag-module/amag-images/amag_logo.png") no-repeat;
+}
+#stage div.tw-switcher .rack-teaser .logo-color-white {
+  background: url("${docRoot}/amag-module/amag-images/amag_logo_white.png") no-repeat;
+}
+#stage div.tw-switcher .rack-teaser .logo-color-black {
+  background: url("${docRoot}/amag-module/amag-images/amag_logo_black.png") no-repeat;
+}
+
+#search-box {
+  position: relative;
+  float: right;
+  margin-top: 13px;
+  height: 28px;
+}
+#search-box .placeholder,
+#search-box #searchbar {
+  color: #6f6d67;
+  font-family: "amag_textlight", sans-serif;
+  font-size: 180%;
+}
+#search-box #searchbar {
+  width: 105px;
+  padding-top: 0;
+}
+#search-box input {
+  background: white;
+  border: 0;
+}
+#search-box input:focus, #search-box input.a11y-focus {
+  border: 0;
+}
+#search-box .button {
+  background: url("${docRoot}/amag-module/amag-images/search_box_arrow.png") white;
+  background-repeat: no-repeat;
+  border: 0;
+  color: black;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+  width: 20px;
+}
+#search-box .button:hover, #search-box .button:active, #search-box .button:focus {
+  background: url("${docRoot}/amag-module/amag-images/search_box_arrow.png") white;
+  background-repeat: no-repeat;
+  border: 0;
+  color: black;
+}
+
+#main .super-list {
+  display: inline-block;
+}
+#main .super-list h3,
+#main .super-list p,
+#main .super-list li li {
+  margin-bottom: 0;
+}
+#main .super-list li h3 a {
+  font-family: "amag_textbold", sans-serif;
+  font-weight: normal;
+  font-size: 110%;
+  text-decoration: none;
+  padding-left: 0;
+  background-image: none;
+  padding: 10px 0 5px;
+}
+#main .super-list li h3 a.a11y-focus {
+  text-decoration: none;
+}
+#main .super-list li h3 a:active {
+  text-decoration: none;
+}
+#main .super-list li h3 a.on {
+  background-color: transparent;
+  padding: 10px 0 5px;
+}
+#main .super-list li h3 a:before {
+  content: "+";
+  width: 10px;
+  display: inline-block;
+}
+#main .super-list li h3 a.on:before {
+  content: "-";
+}
+#main .super-list div#list-box {
+  background-image: none;
+  overflow: hidden;
+  display: none;
+  padding: 0;
+}
+#main .super-list div#list-box > div {
+  background-image: none;
+  padding-left: 0;
+}
+#main .super-list .extended div#list-box {
+  height: auto;
+  display: block;
+}
+
+#main .links h2,
+#main .links h3 {
+  font-weight: normal;
+  font-size: 150%;
+}
+#main .links li {
+  background: none;
+  font-size: 150%;
+  padding: 5px 0;
+}
+#main .links li a, #main .links li.external a {
+  background: url("${docRoot}/amag-module/amag-images/link_arrow.png") no-repeat right center white;
+  padding: 2px 20px 0 0;
+  font-family: "amag_textbold", sans-serif;
+}
+#main .links li.download a {
+  background: url("${docRoot}/amag-module/amag-images/download_arrow.png") no-repeat left center white;
+  padding: 2px 0 0 25px;
+  font-family: "amag_textlight", sans-serif;
+}
+#main .links li a, #main .links li a:active {
+  display: inline;
+  text-decoration: none;
+}
+
+#main table {
+  font-size: 150%;
+  border-top: 0;
+}
+#main th {
+  background: transparent;
+  border-bottom: 3px solid black;
+  font-size: 115%;
+  padding: 5px 8px;
+}
+#main tbody {
+  border-bottom: 1px solid black;
+}
+#main tbody td {
+  padding: 8px;
+  background: url("${docRoot}/amag-module/amag-images/dotted_line.png") repeat-x scroll left bottom transparent;
+  border-bottom: 0;
+}
+#main tbody tr:last-of-type td {
+  background-image: none;
+}
+
+#nav {
+  width: 240px;
+  margin-right: 108px;
+  padding-top: 15px;
+}
+body.home #nav, body.news-overview #nav, body.iframe #nav {
+  display: none;
+  visibility: hidden;
+}
+
+#nav,
+#nav-box {
+  background: none transparent;
+}
+
+#nav-box li strong, #nav-box li.on a:hover,
+#nav-box li.on a:focus,
+#nav-box li.on a:active,
+#nav-box li li.open a:hover,
+#nav-box li li.open a:focus,
+#nav-box li li.open a:active,
+#nav-box li li.open li a:hover,
+#nav-box li li.open li a:focus,
+#nav-box li li.open li a:active,
+#nav-box li li.open li.on a:hover,
+#nav-box li li.open li.on a:focus,
+#nav-box li li.open li.on a:active,
+#nav-box li li li.open li a:hover,
+#nav-box li li li.open li a:focus,
+#nav-box li li li.open li a:active, #nav-box li li.open > a,
+#nav-box li li.open li.on a, #nav-box a:hover, #nav-box a:active, #nav-box a:focus {
+  background-color: transparent;
+  color: #e2007a;
+}
+
+#nav-box ul,
+#nav-box ul ul,
+#nav-box ul ul ul {
+  background-color: transparent;
+}
+#nav-box ul {
+  margin: 0;
+}
+#nav-box ul ul {
+  margin: 0 0 0 20px;
+}
+#nav-box li {
+  font-size: 170%;
+}
+#nav-box li a,
+#nav-box li strong {
+  font-weight: 100;
+  font-family: "amag_displaybold", sans-serif;
+  text-decoration: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+#nav-box li.on li, #nav-box li.open li a,
+#nav-box li li strong {
+  font-family: "amag_displaylight", sans-serif;
+}
+#nav-box li.on strong,
+#nav-box li a:hover,
+#nav-box li a:active,
+#nav-box li a:focus, #nav-box li.on a:hover, #nav-box li.on a:active, #nav-box li.on a:focus, #nav-box li strong, #nav-box li.on a {
+  background-color: transparent;
+}
+#nav-box li.open a {
+  font-weight: normal;
+}
+#nav-box li li.on a,
+#nav-box li li li.on a {
+  color: #e2007a;
+  font-weight: normal;
+}
+#nav-box > ul > li {
+  padding-bottom: 10px;
+}
+#nav-box > ul > li.open > a {
+  color: #e2007a;
+}
+#nav-box li.has-subnav > a:before,
+#nav-box li.has-subnav > strong:before {
+  content: "+";
+  float: left;
+  margin-left: -20px;
+}
+
+.text-meta ul {
+  list-style: none;
+}
+.text-meta .text-data {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.text-meta .date {
+  font-size: 260%;
+}
+
+#text-features {
+  display: none;
+}
+
+#breadcrumb {
+  position: relative;
+  margin: 20px auto 0;
+}
+#breadcrumb h2 {
+  font-size: 150%;
+  float: left;
+  margin-right: 5px;
+  font-weight: normal;
+  padding-top: 2px;
+}
+#breadcrumb h2,
+#breadcrumb strong {
+  font-family: "amag_textlight", sans-serif;
+}
+#breadcrumb ol {
+  list-style: none;
+  margin: 0;
+}
+#breadcrumb li {
+  font-size: 150% !important;
+  background: none !important;
+  margin-right: 0;
+  padding-left: 0;
+  float: left;
+  border: none;
+}
+#breadcrumb li:after {
+  content: "/";
+  padding: 0 5px;
+}
+#breadcrumb li:last-child:after {
+  content: "";
+}
+#breadcrumb a,
+#breadcrumb a:focus,
+#breadcrumb a:visited {
+  text-decoration: none;
+  color: black;
+}
+#breadcrumb strong {
+  font-weight: normal;
+  color: #e2007a;
+}
+
+#search-results #main h2 a {
+  text-decoration: none;
+}
+#search-results .form-wrapper div {
+  background-color: transparent;
+}
+#search-results .form-wrapper input {
+  margin-left: 0;
+}
+
+.form-wrapper fieldset h2 {
+  border-bottom: 1px solid black;
+  border-top: 4px solid black;
+}
+.form-wrapper fieldset .multiple-labels fieldset input,
+.form-wrapper input,
+.form-wrapper textarea,
+.form-wrapper div.mod input.mod {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+#search-results .new-search input.button,
+.form-wrapper div.button-wrapper input {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("${docRoot}/amag-module/amag-images/search_box_arrow.png");
+  border: 0;
+  color: black;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+}
+
+#search-results .new-search input.button {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+#search-results .new-search input.button:hover, #search-results .new-search input.button:active, #search-results .new-search input.button:focus {
+  border: 0;
+  background: url("${docRoot}/amag-module/amag-images/search_box_arrow.png") no-repeat transparent;
+}
+
+.opener,
+.teaser {
+  border-bottom: 0;
+}
+
+.teaser a {
+  font-family: "amag_displaybold", sans-serif;
+  font-size: 260%;
+  text-decoration: none;
+  background: url("${docRoot}/amag-module/amag-images/teaser_link_arrow.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-right: 45px;
+}
+
+#nav-content {
+  background-color: transparent;
+  border: 0;
+}
+#nav-content li {
+  margin: 0 0 0 35px;
+}
+#nav-content li a {
+  background: url("${docRoot}/amag-module/amag-images/link_arrow.png") no-repeat;
+  text-decoration: none;
+  font-family: "amag_displaylight", sans-serif;
+}
+
+#nav-meta {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  height: 41px;
+}
+#nav-meta ul li {
+  line-height: 41px;
+  font-size: 180%;
+  color: #6f6d67;
+}
+#nav-meta ul li a {
+  color: #6f6d67;
+  text-transform: lowercase;
+  text-decoration: none;
+  line-height: 45px;
+}
+#nav-meta ul li a:hover {
+  text-decoration: none;
+}
+
+.photo img {
+  width: 100%;
+}
+.photo dd {
+  background-color: transparent;
+}
+.photo dd.zoom a {
+  width: 20px;
+  height: 20px;
+  background-image: url("${docRoot}/amag-module/amag-images/lupe.png");
+  background-position: top left;
+}
+
+dl.photo {
+  background: none repeat scroll 0 0 transparent;
+}
+
+.grid1-4 {
+  float: left;
+  width: 153px;
+  margin-right: 21px;
+}
+
+.grid1-4-last {
+  float: left;
+  width: 153px;
+}
+
+.grid2-4 {
+  float: left;
+  width: 327px;
+  margin-right: 21px;
+}
+
+.grid2-4-last {
+  float: left;
+  width: 327px;
+}
+
+.grid3-4 {
+  float: left;
+  width: 501px;
+  margin-right: 21px;
+}
+
+.grid3-4-last {
+  float: left;
+  width: 501px;
+}
+
+.grid3-8 {
+  float: left;
+  width: 240px;
+  margin-right: 21px;
+}
+
+.grid4-4 {
+  float: left;
+  width: 675px;
+}
+
+.showbox {
+  width: auto;
+  background-color: transparent;
+}
+.showbox h1.showbox-title {
+  font-weight: normal;
+  font-family: "amag_displaylight", sans-serif;
+  font-size: 240%;
+  margin: 5px 0;
+}
+.showbox .content-box {
+  background-color: transparent;
+}
+.showbox .text-content {
+  background-color: #e2007a;
+  color: white;
+  font-size: 120%;
+  font-family: "amag_textlight", sans-serif;
+}
+.showbox .text-content h2 {
+  font-weight: 100;
+}
+.showbox .close-button {
+  background: url("${docRoot}/amag-module/amag-images/close.png") 0 0 transparent;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  height: 17px;
+  width: 17px;
+  padding: 0;
+  margin: 8px;
+}
+
+.showbox-head {
+  background-color: #e2007a;
+  margin: 0;
+}

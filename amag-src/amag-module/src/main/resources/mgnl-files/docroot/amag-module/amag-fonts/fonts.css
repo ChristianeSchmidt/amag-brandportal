@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'amag_displaylight';
+    src: url('amag_display-light-webfont.eot');
+    src: url('amag_display-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amag_display-light-webfont.woff') format('woff'),
+         url('amag_display-light-webfont.ttf') format('truetype'),
+         url('amag_display-light-webfont.svg#amag_displaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amag_displaybold';
+    src: url('amag_display-bold-webfont.eot');
+    src: url('amag_display-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amag_display-bold-webfont.woff') format('woff'),
+         url('amag_display-bold-webfont.ttf') format('truetype'),
+         url('amag_display-bold-webfont.svg#amag_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amag_textbold';
+    src: url('amag_text-bold-webfont.eot');
+    src: url('amag_text-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amag_text-bold-webfont.woff') format('woff'),
+         url('amag_text-bold-webfont.ttf') format('truetype'),
+         url('amag_text-bold-webfont.svg#amag_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amag_textlight';
+    src: url('amag_text-light-webfont.eot');
+    src: url('amag_text-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amag_text-light-webfont.woff') format('woff'),
+         url('amag_text-light-webfont.ttf') format('truetype'),
+         url('amag_text-light-webfont.svg#amag_textlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
